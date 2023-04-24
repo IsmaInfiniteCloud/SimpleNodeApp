@@ -1,0 +1,26 @@
+Create a new directory for your project:
+ 
+mkdir my-node-project
+Navigate into the new directory:
+ 
+cd my-node-project
+Initialize a new Node.js project with default settings:
+
+ 
+npm init -y
+This will create a package.json file that includes information about your project and its dependencies.
+
+Create an entry point file for your project. The default name for this file is index.js, but you can name it whatever you like.
+
+
+touch index.js
+Install any dependencies your project needs. For example, if you want to use the popular express framework:
+
+ 
+npm install express
+This will install express and add it to your project's package.json file.
+
+Start your Node.js application:
+
+ 
+node index.js
